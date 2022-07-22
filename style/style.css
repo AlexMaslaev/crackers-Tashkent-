@@ -1,0 +1,185 @@
+                    @import 'fonts.css';
+                    * {
+                        margin: 0 auto;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style: none;
+                        font-family: 'RR';
+                    }
+                    /*HEADER **************** */
+                    
+                    header {
+                        margin-bottom: 100px;
+                    }
+                    /* *********************  */
+                    /*MAIN
+    *********************
+     */
+                    
+                    main {
+                        max-width: 1140px;
+                        width: 100%;
+                        padding: 0 15px;
+                        display: flex;
+                        margin-bottom: 100px;
+                    }
+                    
+                    .items-1 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                    
+                    .item-1,
+                    .item-2 {
+                        max-width: 540px;
+                        height: 255px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        margin-bottom: 100px;
+                    }
+                    
+                    .item-img {
+                        width: 50%;
+                    }
+                    
+                    .item-text {
+                        width: 50%;
+                    }
+                    
+                    h3,
+                    h4 {
+                        font-family: 'RB';
+                        font-size: 18px;
+                        color: #1f3750;
+                    }
+                    
+                    p {
+                        font-size: 16px;
+                        font-family: 'RL';
+                        color: #96a6b7;
+                        line-height: 24px;
+                        margin-bottom: 25px;
+                    }
+                    
+                    .btn {
+                        background: #f2f2f2;
+                        padding: 14px 47px 14px 47px;
+                        font-size: 16px;
+                        font-family: 'RL';
+                        color: #0092b6;
+                    }
+                    
+                    .btn:hover {
+                        transition: 500ms;
+                        background: #0092b6;
+                        color: white;
+                    }
+                    
+                    .container {
+                        margin: 0 auto;
+                        max-width: 1110px;
+                        height: 556px;
+                        background: #f3f9ff;
+                        /* border: 1px solid black; */
+                        display: flex;
+                        margin-bottom: 50px;
+                    }
+                    
+                    .item-fruit-1 {
+                        max-width: 200px;
+                        height: 455px;
+                        margin-top: 50px;
+                    }
+                    
+                    h2 {
+                        font-size: 16px;
+                        font-family: 'RB';
+                        margin-bottom: 35px;
+                        color: #1f3750;
+                        line-height: 27px;
+                        text-align: center;
+                    }
+                    
+                    .btn2 {
+                        font-family: 'RB';
+                        font-size: 16px;
+                        color: #1f3750;
+                        border-bottom: 1px solid;
+                        border-bottom-color: #6e7f91;
+                        line-height: 12px;
+                    }
+                    
+                    .links {
+                        max-width: 1110px;
+                        display: flex;
+                        margin-bottom: 100px;
+                    }
+                    
+                    h5 {
+                        font-family: 'RL';
+                        font-size: 20px;
+                        color: #1f3750;
+                        text-align: center;
+                        margin-bottom: 50px;
+                    }
+                    
+                    .left,
+                    .right {
+                        max-width: 555px;
+                        width: 50% auto;
+                        color: #70869d;
+                    }
+                    
+                    .city {
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: #70869d;
+                    }
+                    
+                    .city:hover {
+                        transition: 500ms;
+                        color: #0092b6;
+                    }
+                    /******************
+        footer************/
+                    
+                    footer {
+                        height: 100px;
+                        background: #f3f9ff;
+                    }
+                    
+                    .footer_container {
+                        max-width: 1110px;
+                        height: 100px;
+                        /* border: 1px solid black;*/
+                        display: flex;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                    }
+                    
+                    h1 {
+                        max-width: 540px;
+                        width: 50%;
+                        color: #444444;
+                        font-family: 'RB';
+                        font-size: 20px;
+                    }
+                    
+                    nav {
+                        max-width: 560px;
+                        width: 50%;
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .nav {
+                        color: #6d6d6d;
+                        font-family: 'RL';
+                        font-size: 14px;
+                        font-weight: 600;
+                        margin-right: 15px;
+                        padding: 0;
+                    }
